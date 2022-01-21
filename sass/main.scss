@@ -5,8 +5,9 @@
   padding: 0;
 }
 
-nav {
+.navbar.navbar-expand-md.navbar-dark {
   font-family: vazir-r;
+  background-color: $color-1-gray;
 }
 
 .brand-nav {
@@ -17,5 +18,42 @@ nav {
 .nav-item {
   .nav-link {
     width: max-content;
+  }
+}
+
+article > .one-page {
+//   background-color: #000;
+  height: 105vh;
+  .title-article {
+    color: white;
+  }
+}
+
+.custom-shape-divider-bottom-1642754660 {
+  position: absolute;
+  bottom: -5vh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642754660 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 102px;
+}
+
+.custom-shape-divider-bottom-1642754660 .shape-fill {
+  fill: $color-1-gray;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1642754660 svg {
+    width: calc(100% + 1.3px);
+    height: 74px;
   }
 }

@@ -8,8 +8,9 @@
   padding: 0;
 }
 
-nav {
+.navbar.navbar-expand-md.navbar-dark {
   font-family: vazir-r;
+  background-color: #212121;
 }
 
 .brand-nav {
@@ -21,5 +22,43 @@ nav {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+article > .one-page {
+  height: 105vh;
+}
+
+article > .one-page .title-article {
+  color: white;
+}
+
+.custom-shape-divider-bottom-1642754660 {
+  position: absolute;
+  bottom: -5vh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642754660 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 102px;
+}
+
+.custom-shape-divider-bottom-1642754660 .shape-fill {
+  fill: #212121;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1642754660 svg {
+    width: calc(100% + 1.3px);
+    height: 74px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
