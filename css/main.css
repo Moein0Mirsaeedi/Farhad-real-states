@@ -3,6 +3,16 @@
   src: url(../fonts/Vazir-Regular-UI.woff2), url(../fonts/Vazir-Regular-UI.woff), url(../fonts/Vazir-Regular-UI.ttf), url(../fonts/Vazir-Regular-UI.eot);
 }
 
+@font-face {
+  font-family: vazir-m;
+  src: url(../fonts/Vazir-Medium-UI.woff2), url(../fonts/Vazir-Medium-UI.woff), url(../fonts/Vazir-Medium-UI.ttf), url(../fonts/Vazir-Medium-UI.eot);
+}
+
+@font-face {
+  font-family: mitra-b;
+  src: url(../fonts/BMitraBold.woff), url(../fonts/BMitraBold.ttf), url(../fonts/BMitraBold.eot);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,11 +35,48 @@
 }
 
 article > .one-page {
+  background-color: #000;
   height: 105vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-article > .one-page .title-article {
-  color: white;
+article > .one-page .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article > .one-page .container h1 {
+  color: #eeeeee;
+  font-size: 50px;
+  font-family: mitra-b;
+}
+
+article > .one-page .container img {
+  margin-top: 20px;
+  width: 300px;
 }
 
 .custom-shape-divider-bottom-1642754660 {

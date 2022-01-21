@@ -4,4 +4,23 @@
     url(../fonts/Vazir-Regular-UI.ttf), url(../fonts/Vazir-Regular-UI.eot);
 }
 
+@font-face {
+  font-family: vazir-m;
+  src: url(../fonts/Vazir-Medium-UI.woff2), url(../fonts/Vazir-Medium-UI.woff),
+    url(../fonts/Vazir-Medium-UI.ttf), url(../fonts/Vazir-Medium-UI.eot);
+}
+
+@font-face {
+  font-family: mitra-b;
+  src: url(../fonts/BMitraBold.woff), url(../fonts/BMitraBold.ttf),
+    url(../fonts/BMitraBold.eot);
+}
+
 $color-1-gray: #212121;
+
+@mixin d-f($dir: row, $jus: center, $align: center) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $jus;
+  align-items: $align;
+}

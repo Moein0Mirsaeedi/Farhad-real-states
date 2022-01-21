@@ -22,10 +22,23 @@
 }
 
 article > .one-page {
-//   background-color: #000;
+  background-color: #000;
   height: 105vh;
-  .title-article {
-    color: white;
+  @include d-f;
+
+  .container {
+    @include d-f($dir: column);
+
+    h1 {
+      color: #eeeeee;
+      font-size: 50px;
+        font-family: mitra-b;
+    }
+
+    img {
+      margin-top: 20px;
+      width: 300px;
+    }
   }
 }
 
