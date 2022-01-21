@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: vazir-r;
+  src: url(../fonts/Vazir-Regular-UI.woff2), url(../fonts/Vazir-Regular-UI.woff), url(../fonts/Vazir-Regular-UI.ttf), url(../fonts/Vazir-Regular-UI.eot);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: vazir-r;
+}
+
+.brand-nav {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.nav-item .nav-link {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+/*# sourceMappingURL=main.css.map */
