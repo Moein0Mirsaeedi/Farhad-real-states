@@ -32,14 +32,33 @@ article > .one-page {
     h1 {
       color: #eeeeee;
       font-size: 50px;
-        font-family: mitra-b;
+      font-family: mitra-b;
     }
 
     img {
       margin-top: 20px;
-      width: 300px;
+      width: 500px;
+    }
+    @media screen and (max-width:535px) {
+        img{
+            width: 280px;
+        }
+        h1{
+            font-size: 35px;
+        }
     }
   }
+}
+
+article > .info{
+    background-color: $color-1-gray;
+    color: white;
+    text-align: right;
+    padding: 100px;
+    font-family: vazir-r;
+    span{
+        font-size: 25px;
+    }
 }
 
 .custom-shape-divider-bottom-1642754660 {

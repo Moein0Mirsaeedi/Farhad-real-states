@@ -76,7 +76,28 @@ article > .one-page .container h1 {
 
 article > .one-page .container img {
   margin-top: 20px;
-  width: 300px;
+  width: 500px;
+}
+
+@media screen and (max-width: 535px) {
+  article > .one-page .container img {
+    width: 280px;
+  }
+  article > .one-page .container h1 {
+    font-size: 35px;
+  }
+}
+
+article > .info {
+  background-color: #212121;
+  color: white;
+  text-align: right;
+  padding: 100px;
+  font-family: vazir-r;
+}
+
+article > .info span {
+  font-size: 25px;
 }
 
 .custom-shape-divider-bottom-1642754660 {
