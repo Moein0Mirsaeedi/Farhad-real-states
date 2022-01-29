@@ -25,6 +25,7 @@ article > .one-page .container img { margin-top: 20px; width: 500px; }
 
 article > .info { background-color: #212121; color: white; font-family: vazir-r; padding: 50px; padding-top: 100px; padding-bottom: 180px; text-align: center; position: relative; }
 
+<<<<<<< HEAD
 article > .info > span { font-size: 30px; color: #eeeeee; background-color: #424242; border-radius: 10px; padding: 10px; cursor: pointer; user-select: none; transition: all 300ms; }
 
 article > .info > span:hover { background-color: #eeeeee; color: #424242; }
@@ -43,6 +44,28 @@ article > .info span:nth-child(4):hover { background-color: #424242; color: #eee
 
 .custom-shape-divider-bottom-1642754660 svg { position: relative; display: block; width: calc(100% + 1.3px); height: 102px; }
 
+=======
+article > .info > span:nth-child(1) { width: max-content; margin: 20px auto; font-size: 30px; color: #eeeeee; background-color: #424242; border-radius: 10px; padding: 10px; cursor: pointer; user-select: none; transition: all 300ms; display: block; }
+
+article > .info > span:nth-child(1):hover { background-color: #eeeeee; color: #424242; }
+
+article > .info h4 { display: inline; }
+
+article > .info p { display: inline; font-size: 20px; text-align: right; line-height: 45px; }
+
+article > .info p:nth-child(3) { text-align: center; margin-top: -10px; }
+
+article > .info span:nth-child(4) { font-size: 15px; color: #eeeeee; background-color: rgba(0, 0, 0, 0); float: left; position: relative; margin-left: -20px; transition: all 300ms; }
+
+article > .info span:nth-child(4):hover { background-color: #424242; color: #eeeeee; }
+
+@media screen and (min-width: 700px) { article > .info { padding: 150px 150px; padding-bottom: 250px; } }
+
+.custom-shape-divider-bottom-1642754660 { position: absolute; bottom: -6vh; left: 0; width: 100%; overflow: hidden; line-height: 0; transform: rotate(180deg); }
+
+.custom-shape-divider-bottom-1642754660 svg { position: relative; display: block; width: calc(100% + 1.3px); height: 102px; }
+
+>>>>>>> fe3d61cc5754f15bacba98b1e1f55625d11a60e9
 .custom-shape-divider-bottom-1642754660 .shape-fill { fill: #212121; }
 
 /** For mobile devices **/
@@ -64,7 +87,10 @@ footer dt { font-size: 25px; }
 
 footer dd { font-size: 15px; }
 
+<<<<<<< HEAD
 footer dd h5 { display: inline; }
 
+=======
+>>>>>>> fe3d61cc5754f15bacba98b1e1f55625d11a60e9
 @media screen and (min-width: 1060px) { footer { padding: 150px 150px; padding-bottom: 150px; } }
 /*# sourceMappingURL=main.css.map */

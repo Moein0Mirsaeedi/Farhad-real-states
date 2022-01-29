@@ -59,7 +59,9 @@ article > .info {
   padding-bottom: 180px;
   text-align: center;
   position: relative;
-  > span {
+  > span:nth-child(1) {
+    width: max-content;
+    margin: 20px auto;
     font-size: 30px;
     color: #eeeeee;
     background-color: #424242;
@@ -68,12 +70,18 @@ article > .info {
     cursor: pointer;
     user-select: none;
     transition: all 300ms;
+    display: block;
     &:hover {
       background-color: #eeeeee;
       color: #424242;
     }
   }
+  h4 {
+    display: inline;
+  }
   p {
+    display: inline;
+
     font-size: 20px;
     text-align: right;
     line-height: 45px;
