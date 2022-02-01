@@ -16,7 +16,9 @@ article > .one-page { background-color: #000; height: 105vh; display: flex; flex
 
 article > .one-page .container { display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
-article > .one-page .container h1 { color: #eeeeee; font-size: 50px; font-family: mitra-b; }
+article > .one-page .container h1 { position: absolute; color: rgba(0, 0, 0, 0); }
+
+article > .one-page .container h2 { color: #eeeeee; font-size: 50px; font-family: mitra-b; }
 
 article > .one-page .container img { margin-top: 20px; width: 500px; }
 

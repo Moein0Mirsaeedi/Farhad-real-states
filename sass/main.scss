@@ -30,6 +30,12 @@ article > .one-page {
     @include d-f($dir: column);
 
     h1 {
+      position: absolute;
+      color: rgba(0, 0, 0, 0);
+      opacity: 0;
+    }
+
+    h2 {
       color: #eeeeee;
       font-size: 50px;
       font-family: mitra-b;
